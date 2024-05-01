@@ -1,0 +1,35 @@
+/* TaskList.css */
+
+.task-list-container {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.task-item h3 {
+  margin-top: 0;
+}
+
+.task-item p {
+  margin: 5px 0;
+}
+
+.task-item button {
+  margin-right: 10px;
+}
+
+.task-item.completed {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
